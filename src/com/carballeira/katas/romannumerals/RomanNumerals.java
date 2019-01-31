@@ -11,12 +11,15 @@ package com.carballeira.katas.romannumerals;
  */
 public class RomanNumerals {
 
-    public String getRoman(int i) {
-        if(i==1){
-          return "I";
+    public String getRoman(int n) {
+        StringBuffer sb= new StringBuffer();
+        for(int i=0; i<n; i++){
+          sb.append("I");
         }
-        return "II";
+        return sb.toString();
     }
+    
+    
     
     
     
