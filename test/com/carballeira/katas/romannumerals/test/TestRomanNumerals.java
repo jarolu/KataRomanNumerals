@@ -41,4 +41,11 @@ public class TestRomanNumerals{
         String result=rm.getRoman(3);
         assertEquals("III", result);
     }
+    
+    @Test
+    public void test5esV() {
+        RomanNumerals rm = new RomanNumerals();
+        String result=rm.getRoman(5);
+        assertEquals("V", result);
+    }
 }
