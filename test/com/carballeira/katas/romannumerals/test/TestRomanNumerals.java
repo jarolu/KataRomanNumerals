@@ -27,4 +27,11 @@ public class TestRomanNumerals{
         String result=rm.getRoman(1);
         assertEquals("I", result);
     }
+    
+    @Test
+    public void test2esII() {
+        RomanNumerals rm = new RomanNumerals();
+        String result=rm.getRoman(2);
+        assertEquals("II", result);
+    }
 }

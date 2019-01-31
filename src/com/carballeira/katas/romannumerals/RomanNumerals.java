@@ -12,7 +12,10 @@ package com.carballeira.katas.romannumerals;
 public class RomanNumerals {
 
     public String getRoman(int i) {
-        return "I";
+        if(i==1){
+          return "I";
+        }
+        return "II";
     }
     
     
