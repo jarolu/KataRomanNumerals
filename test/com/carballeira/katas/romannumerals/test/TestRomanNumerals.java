@@ -5,6 +5,7 @@
  */
 package com.carballeira.katas.romannumerals.test;
 
+import com.carballeira.katas.romannumerals.RomanNumerals;
 import org.junit.Test;
 import static org.junit.Assert.*;
 
@@ -12,7 +13,7 @@ import static org.junit.Assert.*;
  *
  * @author admin
  */
-public class TestRomanNumerals {
+public class TestRomanNumerals{
     
     public TestRomanNumerals() {
     }
@@ -20,6 +21,10 @@ public class TestRomanNumerals {
     // TODO add test methods here.
     // The methods must be annotated with annotation @Test. For example:
     //
-    // @Test
-    // public void hello() {}
+    @Test
+    public void test1esI() {
+        RomanNumerals rm = new RomanNumerals();
+        String result=rm.getRoman(1);
+        assertEquals("I", result);
+    }
 }

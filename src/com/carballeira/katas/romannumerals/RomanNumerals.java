@@ -10,5 +10,11 @@ package com.carballeira.katas.romannumerals;
  * @author admin
  */
 public class RomanNumerals {
+
+    public String getRoman(int i) {
+        return "I";
+    }
+    
+    
     
 }
